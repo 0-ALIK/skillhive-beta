@@ -11,8 +11,8 @@
     ];
 </script>
 
-<div class="bg-base-100 w-14 h-[calc(100vh-68px)]">
-    <ul class="flex flex-col gap-4 mt-5">
+<div class="bg-base-100 w-14 h-[calc(100vh-68px)] fixed top-[66px] z-10">
+    <ul class="flex flex-col gap-6 mt-5">
         {#each enlaces as enlace}
             <li class="flex justify-center" title="{enlace.titulo}">
                 <a href="{enlace.url}">

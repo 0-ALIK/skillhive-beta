@@ -9,7 +9,7 @@
     
 </script>
 
-<div class="navbar bg-base-100">
+<div class="navbar bg-base-100 fixed top-0 z-10">
     <div class="navbar-start">
         <Logo />
     </div>
@@ -22,7 +22,7 @@
     </div>
     <div class="navbar-end flex-none gap-2">
         <div class="form-control">
-            <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+            <input type="text" placeholder="Search" class="input input-bordered input-primary w-24 md:w-auto" />
         </div>
         <div class="dropdown dropdown-end">
             <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">

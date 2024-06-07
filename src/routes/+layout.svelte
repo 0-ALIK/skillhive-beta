@@ -4,12 +4,12 @@
     import SideBar from '../lib/components/SideBar.svelte';
 </script>
 
-<main>
+<main class="overflow-y-hidden">
     <div>
         <NavBar />
-        <div class="flex">
+        <div>
             <SideBar />
-            <div class="flex-1 px-2">
+            <div class="w-[calc(100vw-56px)] ml-[56px] mt-[68px] px-2 border border-base-100">
                 <slot></slot>
             </div>
         </div>
