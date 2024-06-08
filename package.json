@@ -20,6 +20,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@tabler/icons-svelte": "^3.5.0"
+		"@paypal/paypal-js": "^8.1.0",
+		"@tabler/icons-svelte": "^3.5.0",
+		"axios": "^1.7.2"
 	}
 }
