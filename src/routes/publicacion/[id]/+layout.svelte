@@ -29,8 +29,7 @@
                 </section>
 
                 <!-- Datos de la publicacion -->
-                <section class="mb-5
-                ">
+                <section class="mb-5">
                     <div class="flex items-center gap-2">
                         <h2 class="mb-2 text-2xl">Titulo de la publicacion</h2>
                         <button class="btn btn-primary btn-sm">
@@ -38,7 +37,19 @@
                             Like
                         </button>
                     </div>
-                    <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>¿
+                    <article class="mb-2">
+                        <p class="font-light text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem reiciendis, enim vero tempora ullam doloribus tempore aspernatur similique. Quibusdam obcaecati aut eligendi nulla adipisci iusto facere consequatur optio neque blanditiis.</p>
+                        <p class="font-light text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, tempora?</p>
+                    </article>
+                </section>
+
+                <!-- Categorias -->
+                <section class="mb-5">
+                    <div class="badge badge-neutral">Programming</div>
+                    <div class="badge badge-neutral">Art</div>
+                    <div class="badge badge-neutral">Design</div>
+                    <div class="badge badge-neutral">Software</div>
+                    <div class="badge badge-neutral">Mondongo</div>
                 </section>
 
                 <!-- Comentarios -->
@@ -48,7 +59,7 @@
                         <input type="text" placeholder="Type here" class="input input-bordered input-primary w-full">
                         <button class="btn btn-primary">Enviar</button>
                     </div>
-                    <div>
+                    <div class="flex flex-col gap-4">
                         <Comentario />
                         <Comentario />
                         <Comentario />
